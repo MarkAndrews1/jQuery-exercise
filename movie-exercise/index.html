@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form id="rating-form">
+    <input id="title" type="text" placeholder="Title of Movie" minlength="2" required>
+    <input id="rating" type="text" placeholder="Rating 1-10" min="1" max="10" required>
+    <button type="submit">Post Rating</button>
+</form>
+<div>
+    <ul id="rating-list" style="list-style: none; margin: 0; padding: 0;"></ul>
+</div>
+ <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+ <script src="app.js"></script>
+</body>
+</html>
